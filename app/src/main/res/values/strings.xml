@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">SmartPlayKids</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="version">version</string>
+    <string name="contact_us">Contact us</string>
+    <!--Drawer-->
+    <string name="open_drawer">Drawer Open</string>
+    <string name="close_drawer">Drawer Close</string>
+
+    <string name="digits_number">1234567890</string>
+    <string name="please_enter_mobile_number">Please Enter Mobile Number.</string>
+
+    <!--App error Message-->
+    <string name="api_retry_error">Please retry!</string>
+    <string name="api_default_error">Something wrong happened!</string>
+    <string name="some_error">Some Error Occurred!</string>
+    <string name="connection_error">Internet connection lost!</string>
+    <string name="logout">LogOut</string>
+    <string name="please_wait">Please wait...</string>
+
+    <!--empty state-->
+    <string name="empty_screen">We do not have anything\nhere right now.</string>
+    <string name="please_retry">Please Retry</string>
+    <string name="retry">Retry</string>
+    <string name="continue_">CONTINUE</string>
+
+    <!--Confirm mobile number-->
+    <string name="enter_correct_mobile_number">Please Enter Correct Mobile Number.</string>
+    <string name="mobile_not_registered_in_school">Mobile not registered in School.</string>
+    <string name="login">Login</string>
+    <string name="resend">Resend</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="otp_sent_to">OTP Sent To :</string>
+    <string name="confirm_mobile">Confirm Mobile</string>
+
+
+    <!--kids info-->
+    <string name="kind_info">Loading your Kids info</string>
+    <string name="no_your_kind">Not your Kids ? Report Now</string>
+    <string name="no_kind_info">No Kids found linked to this number</string>
+    <string name="world_report"><bold>World Reports: </bold>\n
+        <small>Every 3rd child in school feel unsafe BBC, London.</small></string>
+    <string name="be_patient">Be patient... \n its all about your kids</string>
+
+
+    <!--demo-->
+    <string name="HtmlData">
+        <big>Hello Iam Big</big> \n
+        <small>Iam Small</small>  \n
+        <b>Iam bold</b> \n
+        <strike>Vanish 100$</strike>\n
+        <a href="http://bigknol.com">Goto Bigknol</a>
+        X<sub>2</sub>Y \n
+        X<sup>30</sup>Z \n
+        <u>Underline</u> \n
+        <i>Hi Five </i> \n
+        <tt>Hi Six</tt>\n
+   </string>
+    <string name="report_error">Report Error</string>
+    <string name="my_account">My Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="tab_array">
+        <item>@string/attendance</item>
+        <item>@string/circular</item>
+        <item>@string/alert</item>
+    </string-array>
+    <string name="attendance">ATTENDANCE</string>
+    <string name="circular">CIRCULAR</string>
+    <string name="alert">ALERT</string>
+
+
+</resources>

@@ -1,0 +1,8 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+<com.innobles.smartplaykids.ui.widget.EmptyRecyclerView
+    android:id="@+id/recycler_view"
+    style="@style/LayoutHeightWrapWidthMatchStyling"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    />
+</merge>

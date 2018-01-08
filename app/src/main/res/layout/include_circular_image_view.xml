@@ -1,0 +1,10 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/imView"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    app:civ_border_color="#FF000000"
+    app:civ_border_width="2dp"
+    />
+</merge>

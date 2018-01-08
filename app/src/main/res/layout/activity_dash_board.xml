@@ -1,0 +1,23 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/nextButton"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <include
+        layout="@layout/include_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tvReport"
+        android:layout_centerHorizontal="true" />
+
+    <include
+        layout="@layout/item_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_above="@+id/tvReport"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

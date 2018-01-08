@@ -1,0 +1,53 @@
+<RelativeLayout style="@style/LayoutHeightWidthMatchStyling"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    style="@style/LayoutHeightWidthMatchStyling"
+    android:layout_above="@+id/nextButton"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="@dimen/margin_25dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_message"
+        style="@style/TextStyleNormal.Large.Red"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/mobile_not_registered_in_school"
+        android:visibility="invisible" />
+
+
+    <EditText
+        android:id="@+id/etMobileNumber"
+        style="@style/TextStyleNormal.placeholderColor.Large"
+        android:layout_marginBottom="@dimen/margin_20dp"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:background="@drawable/edittext_shap"
+        android:digits="@string/digits_number"
+        android:hint="@string/please_enter_mobile_number"
+        android:imeActionLabel="Done"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:singleLine="true"
+        android:visibility="visible" />
+
+    <TextView
+        style="@style/TextStyleNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Number Registed in your kids school"
+        android:textColor="@color/gray" />
+
+</LinearLayout>
+    <include
+        android:id="@+id/nextButton"
+        layout="@layout/include_bottom_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
+

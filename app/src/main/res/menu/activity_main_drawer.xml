@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <group android:id="@+id/group" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="item0" />
+        <item
+            android:id="@+id/nav_validate_card"
+            android:title="item3" />
+        <item
+            android:id="@+id/nav_issue_card"
+            android:title="item2" />
+        <item
+            android:id="@+id/nav_call_my_car"
+            android:title="item1" />
+
+    </group>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="@string/logout" />
+    </group>
+</menu>

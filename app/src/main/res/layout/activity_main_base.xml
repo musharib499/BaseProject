@@ -1,0 +1,35 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    style="@style/LayoutHeightWrapWidthMatchStyling"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        style="@style/Widget.Design.NavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        android:visibility="gone"
+        app:menu="@menu/navigation" />
+
+    <FrameLayout
+        android:id="@+id/fbaseLayoutMain"
+        style="@style/LayoutHeightWrapWidthMatchStyling"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/nextButton" />
+
+    <include
+        android:id="@+id/lLayoutErrorView"
+        layout="@layout/item_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/nextButton" />
+
+
+</RelativeLayout>
+</merge>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            style="@style/TextStyleNormal.Large.Bold"
+            tools:text="name" />
+
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_below="@+id/tvName"
+            style="@style/TextStyleNormal.Gray"
+            tools:text="name" />
+
+        <TextView
+            android:id="@+id/tvSchoolName"
+            android:layout_below="@id/tvInfo"
+            android:layout_toRightOf="@+id/tvDate"
+            android:layout_alignParentLeft="true"
+            android:layout_width="match_parent"
+            style="@style/TextStyleNormal.Small.Gray"
+            tools:text="name" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_below="@id/tvInfo"
+
+            android:layout_alignParentRight="true"
+            style="@style/TextStyleNormal.Small.Gray"
+            tools:text="name" />
+    </RelativeLayout>
+</merge>

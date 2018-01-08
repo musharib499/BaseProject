@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutHeightWrapWidthMatchStyling"
+    android:padding="@dimen/padding_medium"
+    android:orientation="horizontal">
+
+    <include layout="@layout/include_circular_image_view" />
+
+    <include layout="@layout/item_dashboard_info" />
+</LinearLayout>

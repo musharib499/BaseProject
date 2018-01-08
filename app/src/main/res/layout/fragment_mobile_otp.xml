@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutHeightWidthMatchStyling">
+
+    <RelativeLayout
+        android:id="@+id/rlLayout"
+        style="@style/LayoutHeightWrapWidthMatchStyling"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/nextButton"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/padding_large"
+        tools:context=".ui.fragment.otp.MobileOtpFragmant">
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/TextStyleNormal.Large"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:text="@string/otp_sent_to"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvMobile"
+            style="@style/TextStyleNormal.Large.Bold"
+            android:layout_alignStart="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="@dimen/margin_20dp"
+            tools:text="Mobile Number" />
+
+
+        <TextView
+            android:id="@+id/tvResend"
+            style="@style/TextStyleNormal.Gray"
+            android:layout_alignBaseline="@+id/tvMobile"
+            android:layout_alignBottom="@+id/tvMobile"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:layout_toRightOf="@id/tvMobile"
+            android:text="@string/resend" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/TextStyleNormal.Large"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/tvMobile"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/enter_otp" />
+
+        <com.alimuzaffar.lib.pin.PinEntryEditText
+            android:id="@+id/otpViewMobileNumber"
+            style="@style/TextStyleNormal.Large"
+            android:layout_width="200dp"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:cursorVisible="false"
+            android:digits="1234567890"
+            android:inputType="number"
+            android:maxLength="4"
+            app:pinBackgroundIsSquare="true"
+            app:pinLineColors="@color/text_color" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/nextButton"
+        layout="@layout/include_bottom_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom" />
+</RelativeLayout>
